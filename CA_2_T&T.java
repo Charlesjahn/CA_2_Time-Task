@@ -78,6 +78,16 @@ public class Homework3 {
         }
 
  
+
+ 
+
+package homework3;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class Homework3 {
+
 /**
  *
  * @author DinhNgocBui
