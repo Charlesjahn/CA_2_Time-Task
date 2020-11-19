@@ -1,9 +1,14 @@
 package homework3;
 
 import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 
 public class Homework3 {
+    public static void main(String[] args) {
+        
+    }
     static void ThiagosMethod(){
         /**
          * Author: Thiago
@@ -58,48 +63,27 @@ public class Homework3 {
          } 
          }
 
-            /**
-            *
-            * @author Charles Franklin Jahn
-            */
     /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
+    * @author Charles Franklin Jahn
+    */
+    static void Charlesmethod() {
         Scanner myKB = new Scanner(System.in);
         System.out.println("What is your name?"); 
-        String name = myKB.nextLine().trim();
-        String firstL = name.substring(0,1);
+        String userName = myKB.nextLine().trim();
+        String firstL = userName.substring(0,1);
         
         if (firstL.matches("[Cc]+")){
-            System.out.println("WELCOME to Charles Club!!!");
+            System.out.println("WELCOME to Charles Club!!!");    
+        }
         }
 
-        //use here to put your piece of code
-
-        ThiagosMethod();
-
-
-
-
-    /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package dinhngocmethod;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-
+ 
 /**
  *
  * @author DinhNgocBui
- */
-public class Dinhngocmethod {
-
     /**
      * @param args the command line arguments
-     */
+     */ 
     public static void main(String[] args) {
         String username = "";
         BufferedReader myKB = new BufferedReader ( new InputStreamReader(System.in));
@@ -117,17 +101,6 @@ public class Dinhngocmethod {
         }  
         else{
             System.out.println("No entry, please!");
-        }
-             
-}
-    
-    
-
-
-
-
-
-
-    }
-    
+        }  
+        }    
 }
