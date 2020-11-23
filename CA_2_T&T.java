@@ -27,7 +27,7 @@ public class Homework3 {
              System.out.println("Error");
          }
 
-         char result = username.chatAT(0);
+         char result = username.charAT(0);
          if(result == 't' || result == 'T'){
              System.out.println("Join Thiago`s club");
          }
